@@ -1,1 +1,44 @@
+ Questo file va copiato dentro il tuo repository GitHub, nel percorso:
+#   .github/workflows/daily_update.yml
+#
+# Cosa fa: ogni giorno alle 22:00 UTC (dopo la chiusura di Wall Street)
+# scarica prezzi + fondamentali con fetch_stock_data.py e fa il commit
+# automatico dei CSV aggiornati nel repo. Power BI Service (in "My Workspace")
+# legge quei CSV via URL raw.githubusercontent.com e li ricarica da solo.
+
+name: Aggiornamento giornaliero dati azioni/ETF
+
+on:
+  schedule:
+    - cron: "0 22 * * 1-5"   # Lun-Ven alle 22:00 UTC (23:00/00:00 ora italiana)
+  workflow_dispatch: {}       # permette anche il lancio manuale dal tab Actions
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Installa dipendenze
+        run: pip install -r requirements.txt
+
+      - name: Esegui script di aggiornamento
+        run: python fetch_stock_data.py
+
+      - name: Commit e push dei CSV aggiornati
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/prices.csv data/fundamentals.csv
+          git diff --quiet --cached || git commit -m "Aggiornamento dati $(date +'%Y-%m-%d')"
+          git push
 
