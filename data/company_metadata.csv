@@ -4,30 +4,6 @@ AMD,Semiconduttori,USA,Sviluppato
 TSM,Semiconduttori,Taiwan,Emergente
 ASML,Semiconduttori,Europa,Sviluppato
 AVGO,Semiconduttori,USA,Sviluppato
-AAPL,Tech,USA,Sviluppato
-MSFT,Tech,USA,Sviluppato
-GOOGL,Tech,USA,Sviluppato
-AMZN,Tech,USA,Sviluppato
-META,Tech,USA,Sviluppato
-PLTR,AI,USA,Sviluppato
-CRWD,Cybersecurity,USA,Sviluppato
-PANW,Cybersecurity,USA,Sviluppato
-JPM,Finanza,USA,Sviluppato
-V,Finanza,USA,Sviluppato
-LLY,Healthcare,USA,Sviluppato
-NVO,Healthcare,Europa,Sviluppato
-MELI,Ecommerce,America Latina,Emergente
-NU,Finanza Digitale,America Latina,Emergente
-HDB,Finanza,India,Emergente
-ORCL,Tech,USA,Sviluppato
-CRM,Tech,USA,Sviluppato
-ADBE,Tech,USA,Sviluppato
-NOW,Tech,USA,Sviluppato
-INTU,Tech,USA,Sviluppato
-IBM,Tech,USA,Sviluppato
-SNPS,Tech,USA,Sviluppato
-CDNS,Tech,USA,Sviluppato
-ARM,Semiconduttori,UK,Sviluppato
 QCOM,Semiconduttori,USA,Sviluppato
 AMAT,Semiconduttori,USA,Sviluppato
 LRCX,Semiconduttori,USA,Sviluppato
@@ -38,6 +14,30 @@ ON,Semiconduttori,USA,Sviluppato
 MCHP,Semiconduttori,USA,Sviluppato
 MPWR,Semiconduttori,USA,Sviluppato
 ADI,Semiconduttori,USA,Sviluppato
+ARM,Semiconduttori,UK,Sviluppato
+AAPL,Tech,USA,Sviluppato
+MSFT,Tech,USA,Sviluppato
+GOOGL,Tech,USA,Sviluppato
+AMZN,Tech,USA,Sviluppato
+META,Tech,USA,Sviluppato
+ORCL,Tech,USA,Sviluppato
+CRM,Tech,USA,Sviluppato
+ADBE,Tech,USA,Sviluppato
+NOW,Tech,USA,Sviluppato
+INTU,Tech,USA,Sviluppato
+IBM,Tech,USA,Sviluppato
+SNPS,Tech,USA,Sviluppato
+CDNS,Tech,USA,Sviluppato
+INFY,Tech,India,Emergente
+WIT,Tech,India,Emergente
+MMYT,Tech,India,Emergente
+LTIM,Tech,India,Emergente
+TCEHY,Tech,Cina,Emergente
+PLTR,AI,USA,Sviluppato
+PATH,AI,USA,Sviluppato
+BIDU,AI,Cina,Emergente
+CRWD,Cybersecurity,USA,Sviluppato
+PANW,Cybersecurity,USA,Sviluppato
 FTNT,Cybersecurity,USA,Sviluppato
 ZS,Cybersecurity,USA,Sviluppato
 OKTA,Cybersecurity,USA,Sviluppato
@@ -46,14 +46,23 @@ SNOW,Cybersecurity,USA,Sviluppato
 MDB,Cybersecurity,USA,Sviluppato
 NET,Cybersecurity,USA,Sviluppato
 HUBS,Cybersecurity,USA,Sviluppato
+JPM,Finanza,USA,Sviluppato
 BAC,Finanza,USA,Sviluppato
 GS,Finanza,USA,Sviluppato
 MS,Finanza,USA,Sviluppato
 BLK,Finanza,USA,Sviluppato
 SCHW,Finanza,USA,Sviluppato
+V,Finanza,USA,Sviluppato
 MA,Finanza,USA,Sviluppato
 AXP,Finanza,USA,Sviluppato
 CME,Finanza,USA,Sviluppato
+HDB,Finanza,India,Emergente
+IBN,Finanza,India,Emergente
+CIB,Finanza,America Latina,Emergente
+NU,Finanza Digitale,America Latina,Emergente
+GRAB,Finanza Digitale,Singapore,Emergente
+LLY,Healthcare,USA,Sviluppato
+NVO,Healthcare,Europa,Sviluppato
 ABBV,Healthcare,USA,Sviluppato
 JNJ,Healthcare,USA,Sviluppato
 MRK,Healthcare,USA,Sviluppato
@@ -62,6 +71,17 @@ AMGN,Healthcare,USA,Sviluppato
 REGN,Healthcare,USA,Sviluppato
 ISRG,Healthcare,USA,Sviluppato
 UNH,Healthcare,USA,Sviluppato
+RDY,Healthcare,India,Emergente
+VRTX,Biotech,USA,Sviluppato
+IQV,Biotech,USA,Sviluppato
+TECH,Biotech,USA,Sviluppato
+ILMN,Biotech,USA,Sviluppato
+BIO,Biotech,USA,Sviluppato
+MRNA,Biotech,USA,Sviluppato
+BNTX,Biotech,Europa,Sviluppato
+ALNY,Biotech,USA,Sviluppato
+ARGX,Biotech,Europa,Sviluppato
+CRSP,Biotech,Europa,Sviluppato
 COST,Consumer,USA,Sviluppato
 WMT,Consumer,USA,Sviluppato
 PG,Consumer,USA,Sviluppato
@@ -76,31 +96,13 @@ CAT,Industriali,USA,Sviluppato
 HON,Industriali,USA,Sviluppato
 GE,Industriali,USA,Sviluppato
 ETN,Industriali,USA,Sviluppato
+DE,Industriali,USA,Sviluppato
+EMR,Industriali,USA,Sviluppato
+PH,Industriali,USA,Sviluppato
+TT,Industriali,USA,Sviluppato
+WM,Industriali,USA,Sviluppato
+TTM,Industriali,India,Emergente
 RTX,Difesa,USA,Sviluppato
-DE,Industriali,USA,Sviluppato
-EMR,Industriali,USA,Sviluppato
-PH,Industriali,USA,Sviluppato
-TT,Industriali,USA,Sviluppato
-WM,Industriali,USA,Sviluppato
-XOM,Energia,USA,Sviluppato
-CVX,Energia,USA,Sviluppato
-COP,Energia,USA,Sviluppato
-EOG,Energia,USA,Sviluppato
-SLB,Energia,USA,Sviluppato
-BP,Energia,UK,Sviluppato
-SHEL,Energia,UK,Sviluppato
-RIO,Materie Prime,UK,Sviluppato
-BHP,Materie Prime,Australia,Sviluppato
-FCX,Materie Prime,USA,Sviluppato
-CAT,Industriali,USA,Sviluppato
-HON,Industriali,USA,Sviluppato
-GE,Industriali,USA,Sviluppato
-ETN,Industriali,USA,Sviluppato
-DE,Industriali,USA,Sviluppato
-EMR,Industriali,USA,Sviluppato
-PH,Industriali,USA,Sviluppato
-TT,Industriali,USA,Sviluppato
-WM,Industriali,USA,Sviluppato
 LMT,Difesa,USA,Sviluppato
 NOC,Difesa,USA,Sviluppato
 GD,Difesa,USA,Sviluppato
@@ -111,6 +113,18 @@ TXT,Difesa,USA,Sviluppato
 CW,Difesa,USA,Sviluppato
 HEI,Difesa,USA,Sviluppato
 TDG,Difesa,USA,Sviluppato
+XOM,Energia,USA,Sviluppato
+CVX,Energia,USA,Sviluppato
+COP,Energia,USA,Sviluppato
+EOG,Energia,USA,Sviluppato
+SLB,Energia,USA,Sviluppato
+BP,Energia,UK,Sviluppato
+SHEL,Energia,UK,Sviluppato
+PBR,Energia,America Latina,Emergente
+RIO,Materie Prime,UK,Sviluppato
+BHP,Materie Prime,Australia,Sviluppato
+FCX,Materie Prime,USA,Sviluppato
+VALE,Materie Prime,America Latina,Emergente
 NEE,Utility,USA,Sviluppato
 SO,Utility,USA,Sviluppato
 DUK,Utility,USA,Sviluppato
@@ -129,15 +143,9 @@ ANET,Robotica,USA,Sviluppato
 FLEX,Robotica,USA,Sviluppato
 JBTM,Robotica,USA,Sviluppato
 FANUY,Robotica,Giappone,Sviluppato
-PATH,AI,USA,Sviluppato
 SYM,Robotica,USA,Sviluppato
-VRTX,Biotech,USA,Sviluppato
-IQV,Biotech,USA,Sviluppato
-TECH,Biotech,USA,Sviluppato
-ILMN,Biotech,USA,Sviluppato
-BIO,Biotech,USA,Sviluppato
-MRNA,Biotech,USA,Sviluppato
-BNTX,Biotech,Europa,Sviluppato
-ALNY,Biotech,USA,Sviluppato
-ARGX,Biotech,Europa,Sviluppato
-CRSP,Biotech,Europa,Sviluppato
+MELI,Ecommerce,America Latina,Emergente
+BABA,Ecommerce,Cina,Emergente
+JD,Ecommerce,Cina,Emergente
+SEA,Ecommerce,Singapore,Emergente
+WNS,Business Services,India,Emergente
